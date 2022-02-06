@@ -6,6 +6,11 @@ This is to practice map and reduce
 ## About Data ##
 New Covid-19 cases are being reported every day all around the world. This dataset contains data about Covid-19 cases from different states in India on a daily basis.
 
+## Execution Commands On Power Shell ##
+cat KeerthiMuli_StatewiseTestingDetails.csv | python 02mapper.py | sort  | python 02reducer.py > KeerthiMuli_StateWiseTestingDetailsOutput.txt
+
+cat KeerthiMuli_StatewiseTestingDetails.csv | python 02mapper.py | sort  | python 02reducer.py > KeerthiMuli_StateWiseTestingDetailsOutput.csv
+
 ## Findings ##
 - Top 10 States with highest number of Covid19 positive cases.
 -  Overall States With Covid-19 Positive Cases
